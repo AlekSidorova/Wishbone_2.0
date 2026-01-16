@@ -4,3 +4,11 @@ export interface INavLink {
   href: string;
   active?: boolean;
 };
+
+//интерфейс для кнопки
+export interface IButtonProps {
+  children: React.ReactNode;
+  href?: string; //если ссылка
+  onClick?: () => void; //если кнопка
+  className?: string; //дополнительный класс
+}
