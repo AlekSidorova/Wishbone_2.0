@@ -31,16 +31,3 @@
   list-style-type: none;
 }
 
-.buttonLink {
-  max-width: 155px;
-  height: 46px;
-  border-radius: 14px;
-  padding: 10px 19px;
-
-  color: #fff;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.03em;
-  background-color: #1b1a1a;
-}
-

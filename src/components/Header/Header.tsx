@@ -2,6 +2,7 @@ import React from 'react';
 import type { INavLink } from '../../types';
 import styles from './Header.module.css';
 import logo from '../../assets/images/header_logo.svg';
+import Button from '../Button/Button';
 
 //массив с сылками по сайту
 const navLinks: INavLink[] = [
@@ -37,22 +38,12 @@ const Header: React.FC = () => {
         </nav>
 
         {/* кнопка */}
-        <button type="button" className={styles.buttonLink}>
+        <Button onClick={() => console.log("Открывается модалка!")}>
           Get template
-        </button>
+        </Button>
       </div>
     </header>
   );
 };
 
 export default Header;
-
-{
-  /* <button
-  type="button"
-  className={styles.buttonLink}
-  onClick={openModal}
->
-  Get template
-</button> */
-}
