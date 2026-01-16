@@ -1,0 +1,46 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 22px 141px 22px 152px;
+}
+
+.logo {
+  width: 220px;
+  padding-top: 8px;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.linksList {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+
+  font-size: 15px;
+  line-height: 160%;
+  list-style-type: none;
+}
+
+.buttonLink {
+  max-width: 155px;
+  height: 46px;
+  border-radius: 14px;
+  padding: 10px 19px;
+
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  background-color: #1b1a1a;
+}
+
