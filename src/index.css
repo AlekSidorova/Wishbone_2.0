@@ -12,6 +12,10 @@ body {
   background-color: #505050;
 }
 
+button {
+  font-family: Poppins, sans-serif;
+}
+
 h1,
 h2,
 h3,
