@@ -1,0 +1,38 @@
+.item {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.meta {
+  position: absolute;
+  top: 39px;
+  left: 40px;
+  z-index: 1;
+}
+
+.country {
+  color: #645c55;
+}
+
+.title {
+  color: #403e3b;
+  font-size: 23px;
+  line-height: 130%;
+}
+
+.link {
+  position: absolute;
+  width: 135px;
+  bottom: 40px;
+  left: 45px;
+  z-index: 1;
+}
+
+
+
+
+

@@ -18,7 +18,7 @@
 .navButton {
   display: flex;
   align-items: center;
-  gap: 34px;
+  gap: 33px;
 }
 
 .linksList {
