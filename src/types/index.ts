@@ -18,4 +18,12 @@ export interface IPersonCardProps {
   image: string;
   name: string;
   role: string;
-}
+};
+
+//интерфейс для секции с фото (декоративная)
+export interface IPhotoSectionProps {
+  title: string;
+  text: string;
+  backgroundImage: string;
+  align?: 'left' | 'right';
+};
