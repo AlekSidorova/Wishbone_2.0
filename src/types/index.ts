@@ -11,4 +11,11 @@ export interface IButtonProps {
   href?: string; //если ссылка
   onClick?: () => void; //если кнопка
   className?: string; //дополнительный класс
+};
+
+//интерфейс для персональной карточки
+export interface IPersonCardProps {
+  image: string;
+  name: string;
+  role: string;
 }
