@@ -27,3 +27,11 @@ export interface IPhotoSectionProps {
   backgroundImage: string;
   align?: 'left' | 'right';
 };
+
+//интерфейс для карточки how we do
+export interface IHowWeDoCardProps {
+  image: string;
+  title: string;
+  text: string;
+  alt?: string;
+}

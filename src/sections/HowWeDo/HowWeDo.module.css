@@ -1,0 +1,21 @@
+.howWeDo {
+  padding: 101px 134px;
+}
+
+.heading {
+  color: #645c55;
+  text-align: center;
+}
+
+.title {
+  padding: 14px 0 46px;
+  color: #1b1a1a;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  list-style-type: none;
+}
