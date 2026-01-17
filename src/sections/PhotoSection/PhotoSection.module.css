@@ -1,0 +1,29 @@
+.photoSection {
+  position: relative;
+  min-width: 300px;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.text {
+  position: absolute;
+  top: 44.5%;
+}
+
+.title {
+  color: #403e3b;
+}
+
+.right {
+  right: 73px;
+}
+
+.left {
+  left: 136px;
+}
+
+.paragraph {
+  max-width: 286px;
+  color: #645c55;
+}
