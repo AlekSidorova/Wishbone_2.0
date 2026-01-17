@@ -1,0 +1,38 @@
+.cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ECE7E4;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 77px 60px;
+  padding: 60px 40px 39px;
+}
+
+.logo {
+  color: #645c55;
+}
+
+.title {
+  font-size: 64px;
+  line-height: 110%;
+}
+
+.text {
+  color: #403e3b;
+}
+
+.coverButton {
+  background-color: transparent;
+  color: #1b1a1a;
+  padding: 11px 20px;
+  width: 133px;
+  margin: 10px 5px 0;
+}
+
+.coverButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}

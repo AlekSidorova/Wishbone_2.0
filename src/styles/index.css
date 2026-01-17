@@ -1,3 +1,5 @@
+@import './typography.css';
+
 /* глобальные стили всего проекта */
 *,
 *::before,
@@ -6,9 +8,8 @@
 }
 
 body {
-  width: 1440px;
-  margin: 0 auto;
-  font-family: Poppins, sans-serif;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
   background-color: #505050;
 }
 
