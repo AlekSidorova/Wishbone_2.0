@@ -1,0 +1,28 @@
+.heading {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.section_title_mini {
+  font-size: 32px;
+  line-height: 119%;
+  white-space: nowrap;
+}
+
+.section_title_maxi {
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 108%;
+}
+
+.main_text_maxi {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.main_text_mini {
+  font-size: 15px;
+  line-height: 160%;
+}

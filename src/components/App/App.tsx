@@ -1,11 +1,15 @@
 import React from "react";
+import styles from "./App.module.css";
 import Header from "../Header/Header";
+import Cover from "../../sections/Cover/Cover";
 
 const App: React.FC = () => {
   return (
-   <div>
+   <div className={styles.page}>
     <Header />
-    {/*тут будут другие секции*/}
+    <main>
+      <Cover />
+    </main>
    </div>
   );
 };
