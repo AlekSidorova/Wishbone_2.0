@@ -5,6 +5,8 @@ import Cover from "../../sections/Cover/Cover";
 import OurFirm from "../../sections/OurFirm/OurFirm";
 import PhotoSection from "../../sections/PhotoSection/PhotoSection";
 import bg1 from "../../assets/images/background_1.png";
+import HowWeDo from "../../sections/HowWeDo/HowWeDo";
+import bg2 from "../../assets/images/background_2.png";
 
 const App: React.FC = () => {
   return (
@@ -17,6 +19,11 @@ const App: React.FC = () => {
         title="Reeding House"
         text="Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet."
         backgroundImage={bg1} />
+      <HowWeDo />
+      <PhotoSection
+        title="The marble staircase"
+        text="Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet."
+        backgroundImage={bg2} />
     </main>
    </div>
   );
