@@ -1,0 +1,23 @@
+.ourFirm {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 138px;
+  padding: 96px 336px 127px;
+}
+
+.title{
+  color: #403e3b;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-top: 5px;
+  color: #403e3b;
+}
+
+.card {
+  padding-top: 7px;
+}
