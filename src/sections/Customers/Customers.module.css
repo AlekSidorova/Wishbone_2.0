@@ -1,0 +1,35 @@
+.customers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: start;
+  gap: 15px;
+  padding: 60px 136px;
+  background-color: #403E3B;
+}
+
+.text {
+  max-width: 451px;
+  padding-top: 74px;
+  color: #ece7e4;
+}
+
+.header {
+  padding: 5px 0;
+  padding-bottom: 23px;
+  color: #fff;
+  line-height: 61%;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  gap: 75px 96px;
+  padding: 39px 40px 20px;
+}
+
+.logo {
+  width: 128px;
+  height: auto;
+}
