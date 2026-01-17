@@ -9,6 +9,7 @@ import HowWeDo from '../../sections/HowWeDo/HowWeDo';
 import bg2 from '../../assets/images/background_2.png';
 import Customers from '../../sections/Customers/Customers';
 import bg3 from '../../assets/images/background_3.png';
+import FeaturedProjects from '../../sections/FeaturedProjects/FeaturedProjects';
 
 const App: React.FC = () => {
   return (
@@ -35,6 +36,7 @@ const App: React.FC = () => {
           backgroundImage={bg3}
           align="left"
         />
+        <FeaturedProjects />
       </main>
     </div>
   );

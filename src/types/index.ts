@@ -34,4 +34,12 @@ export interface IHowWeDoCardProps {
   title: string;
   text: string;
   alt?: string;
+};
+
+//интрейфейс для карточек проектов
+export interface IFeaturedProjectItemProps {
+  image: string;
+  alt: string;
+  country?: string;
+  title?: string;
 }
