@@ -10,7 +10,13 @@ const HowWeDoCard: React.FC<IHowWeDoCardProps> = ({
 }) => {
   return (
     <li className={styles.card}>
-      <img src={image} alt={alt} className={styles.image} />
+      <div className={styles.image}>
+        {React.isValidElement(image) ? (
+          image
+        ) : (
+          <img src={image} alt={alt} />
+        )}
+      </div>
       <h4 className={styles.name}>{title}</h4>
       <p className={`main_text_mini ${styles.text}`}>{text}</p>
     </li>

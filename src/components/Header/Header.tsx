@@ -1,8 +1,9 @@
 import React from 'react';
 import type { INavLink } from '../../types';
 import styles from './Header.module.css';
-import logo from '../../assets/images/header_logo.svg';
 import Button from '../Button/Button';
+import ThemeToggle from '../ThemeToggle/ThemeToggle';
+import Logo from '../Logo/Logo';
 
 //массив с сылками по сайту
 const navLinks: INavLink[] = [
@@ -16,8 +17,8 @@ const navLinks: INavLink[] = [
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <a href="#cover">
-        <img src={logo} alt="Logo" className={styles.logo} />
+      <a href="#cover" className={styles.logo}>
+        <Logo />
       </a>
 
       <div className={styles.navButton}>
@@ -36,9 +37,9 @@ const Header: React.FC = () => {
             ))}
           </ul>
         </nav>
-
+        <ThemeToggle />
         {/* кнопка */}
-        <Button onClick={() => console.log("Открывается модалка!")}>
+        <Button onClick={() => console.log('Открывается модалка!')}>
           Get template
         </Button>
       </div>

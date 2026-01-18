@@ -4,19 +4,19 @@
   justify-items: start;
   gap: 15px;
   padding: 60px 136px;
-  background-color: #403E3B;
+  background-color: var(--bg-color-dark);
 }
 
 .text {
   max-width: 451px;
   padding-top: 74px;
-  color: #ece7e4;
+  color: var(--text-color-dark);
 }
 
 .header {
   padding: 5px 0;
   padding-bottom: 23px;
-  color: #fff;
+  color: var(--text-color-dark-title);
   line-height: 61%;
 }
 

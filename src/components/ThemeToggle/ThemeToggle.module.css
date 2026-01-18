@@ -1,0 +1,6 @@
+.themeToggle {
+  background: none;
+  border: none;
+  display: flex;
+  cursor: pointer;
+}

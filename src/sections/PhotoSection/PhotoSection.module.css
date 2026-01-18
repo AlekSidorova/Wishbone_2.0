@@ -6,13 +6,21 @@
   background-size: auto;
 }
 
+.photoSection::before {
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background: var(--overlay-dark); 
+  z-index: 0;
+}
+
 .text {
   position: absolute;
   top: 44.5%;
 }
 
 .title {
-  color: #403e3b;
+  color: var(--text-color-special); 
 }
 
 .right {
@@ -25,5 +33,5 @@
 
 .paragraph {
   max-width: 286px;
-  color: #645c55;
+  color: var(--text-color-dec);
 }

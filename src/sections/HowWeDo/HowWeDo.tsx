@@ -2,23 +2,25 @@ import React from 'react';
 import styles from './HowWeDo.module.css';
 import HowWeDoCard from '../../components/HowWeDoCard/HowWeDoCard';
 
-import sketchingIcon from '../../assets/images/Sketching.svg';
-import finalizingIcon from '../../assets/images/Finalizing.svg';
-import buildingIcon from '../../assets/images/Building.svg';
+import {
+  SketchingIcon,
+  FinalizingIcon,
+  BuildingIcon,
+} from '../../assets/decorations';
 
 const cards = [
   {
-    image: sketchingIcon,
+    image: <SketchingIcon />,
     title: 'Sketching',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.',
   },
   {
-    image: finalizingIcon,
+    image: <FinalizingIcon />,
     title: 'Finalizing',
     text: 'Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.',
   },
   {
-    image: buildingIcon,
+    image: <BuildingIcon />,
     title: 'Building',
     text: 'Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.',
   },

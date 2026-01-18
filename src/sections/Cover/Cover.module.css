@@ -1,7 +1,7 @@
 .cover {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #ECE7E4;
+  background-color: var(--bg-color-cover);
 }
 
 .about {
@@ -13,26 +13,27 @@
 }
 
 .logo {
-  color: #645c55;
+  color: var(--text-color-dec);
 }
 
 .title {
   font-size: 64px;
   line-height: 110%;
+  color: var(--text-color);
 }
 
 .text {
-  color: #403e3b;
+  color: var(--text-color-special);
 }
 
 .coverButton {
   background-color: transparent;
-  color: #1b1a1a;
+  color: var(--text-color);
   padding: 11px 20px;
   width: 133px;
   margin: 10px 5px 0;
 }
 
 .coverButton:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--bg-color-button-hover-link);
 }
