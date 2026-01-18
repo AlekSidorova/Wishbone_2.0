@@ -1,0 +1,35 @@
+.meetTeam {
+  display: grid;
+  grid-template-columns: 378px 773px;
+  gap: 16px;
+  min-height: 392px;
+  padding: 95px 136px 129px;
+}
+
+.header {
+  color: #403e3b;
+}
+
+.text {
+  padding: 14px 0 31px;
+  color: #645c55;
+}
+
+.button {
+  background-color: transparent;
+  color: #1b1a1a;
+  width: 130px;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.people {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  row-gap: 51px;
+  column-gap: 18px;
+  padding-top: 13px;
+}
