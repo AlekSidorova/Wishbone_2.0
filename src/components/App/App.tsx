@@ -12,6 +12,7 @@ import bg3 from '../../assets/images/background_3.png';
 import FeaturedProjects from '../../sections/FeaturedProjects/FeaturedProjects';
 import MeetTeam from '../../sections/MeetTeam/MeetTeam';
 import Question from '../../sections/Question/Question';
+import Footer from '../Footer/Footer';
 
 const App: React.FC = () => {
   return (
@@ -42,6 +43,7 @@ const App: React.FC = () => {
         <MeetTeam />
         <Question />
       </main>
+      <Footer />
     </div>
   );
 };
