@@ -3,13 +3,13 @@
 }
 
 .heading {
-  color: #645c55;
+  color: var(--text-color-dec);
   text-align: center;
 }
 
 .title {
   padding: 14px 0 46px;
-  color: #1b1a1a;
+  color: var(--text-color);
   text-align: center;
 }
 

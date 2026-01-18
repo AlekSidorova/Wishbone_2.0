@@ -12,13 +12,13 @@
 }
 
 .name {
-  color: #1b1a1a;
+  color: var(--text-color);
   font-size: 17px;
   line-height: 16px;
 }
 
 .role{
-  color: #645c55;
+  color: var(--text-color-dec);
   font-size: 14px;
   line-height: 100%;
 }

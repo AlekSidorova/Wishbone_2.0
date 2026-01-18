@@ -7,11 +7,12 @@
 
 .logo {
   width: 256px;
-  padding-bottom: 12px;
+  height: 22px;
+  margin-bottom: 21px;
 }
 
 .text {
-  color: #645c55;
+  color: var(--text-color-dec);
   font-size: 14px;
   line-height: 143%;
 }

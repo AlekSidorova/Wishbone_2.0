@@ -1,4 +1,5 @@
 @import './typography.css';
+@import './theme.css';
 
 /* глобальные стили всего проекта */
 *,
@@ -40,11 +41,11 @@ img {
 header,
 section,
 footer {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
 }
 
 a {
-  color: #1b1a1a;
+  color: var(--text-color);
   text-decoration: none;
 }
 

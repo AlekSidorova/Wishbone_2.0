@@ -6,7 +6,7 @@
 }
 
 .title{
-  color: #403e3b;
+  color: var(--text-color-special);
 }
 
 .text {
@@ -15,7 +15,7 @@
   align-items: flex-start;
   gap: 10px;
   padding-top: 5px;
-  color: #403e3b;
+  color: var(--text-color-special);
 }
 
 .card {

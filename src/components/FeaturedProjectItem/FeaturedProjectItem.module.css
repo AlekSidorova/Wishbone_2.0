@@ -1,5 +1,14 @@
 .item {
   position: relative;
+  overflow: hidden;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--overlay-dark); 
+  z-index: 0;
 }
 
 .image {
@@ -11,15 +20,15 @@
   position: absolute;
   top: 39px;
   left: 40px;
-  z-index: 1;
+  z-index: 5;
 }
 
 .country {
-  color: #645c55;
+  color: var(--text-color-dec);
 }
 
 .title {
-  color: #403e3b;
+  color: var(--text-color-special);
   font-size: 23px;
   line-height: 130%;
 }
@@ -29,7 +38,7 @@
   width: 135px;
   bottom: 40px;
   left: 45px;
-  z-index: 1;
+  z-index: 5;
 }
 
 

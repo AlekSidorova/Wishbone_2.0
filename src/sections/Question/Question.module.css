@@ -3,29 +3,29 @@
   justify-content: space-between;
   align-items: center;
   padding: 100px 136px 110px;
-  background-color: #CEC4BC;
+  background-color: var(--bg-color-secondary);
 }
 
 .title {
-  color: #645c55;
+  color: var(--text-color-dec);
 }
 
 .text {
   position: relative;
   top: -7px;
   max-width: 569px;
-  color: #1b1a1a;
+  color: var(--text-color);
   font-size: 40px;
   line-height: 105%;
 }
 
 .button {
   background-color: transparent;
-  color: #1b1a1a;
+  color: var(--text-color);
   width: 147px;
   margin-top: 11px;
 }
 
 .button:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--bg-color-button-hover-link);
 }

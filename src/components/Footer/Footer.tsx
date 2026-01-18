@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.css';
 
-import logo from '../../assets/images/header_logo.svg';
+import Logo from '../Logo/Logo';
 //запрещённые на территории РФ организация
-import twitter from '../../assets/images/twitter.png';
-import instagram from '../../assets/images/inst.png';
-import facebook from '../../assets/images/facebook.png';
+import { TwitterIcon, InstagramIcon, FacebookIcon } from '../../assets/icons';
 
 const Footer: React.FC = () => {
   //дата
@@ -15,12 +13,10 @@ const Footer: React.FC = () => {
     <footer className={styles.footer}>
       {/* левая часть */}
       <div>
-        <a href="#0">
-          <img
-            src={logo}
-            alt="Wishbone+Partners logo"
-            className={styles.logo}
-          />
+        <a href="#0" >
+          <div className={styles.logo}>
+            <Logo />
+          </div>
         </a>
         <p className={styles.text}>
           Powered by<span>Webflow</span>.
@@ -33,15 +29,15 @@ const Footer: React.FC = () => {
       {/* соцсети */}
       <div className={styles.links}>
         <a href="#0" aria-label="Twitter">
-          <img src={twitter} alt="Twitter" className={styles.imgLogo} />
+          <TwitterIcon className={styles.imgLogo} />
         </a>
 
         <a href="#0" aria-label="Instagram">
-          <img src={instagram} alt="Instagram" className={styles.imgLogo} />
+          <InstagramIcon className={styles.imgLogo} />
         </a>
 
         <a href="#0" aria-label="Facebook">
-          <img src={facebook} alt="Facebook" className={styles.imgLogo} />
+          <FacebookIcon className={styles.imgLogo} />
         </a>
       </div>
     </footer>

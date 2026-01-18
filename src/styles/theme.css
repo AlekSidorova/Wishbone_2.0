@@ -1,0 +1,75 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1b1a1a;
+  --logo-color: #1b1a1a;
+
+  /* оверлей на фото */
+  --overlay-dark: rgba(0, 0, 0, 0.01);
+
+  /* кнопка */
+  --bg-color-button: #1b1a1a;
+  --text-color-button: #ffffff;
+  --bg-color-button-hover: #333;
+  --bg-color-button-hover-link: #dcd7d7;
+
+  /* лого текстом и декоративнй шрифт */
+  --text-color-dec: #645c55;
+
+  /* фон cover */
+  --bg-color-cover: #ece7e4;
+
+  /* h1 */
+  --text-color-main-title: #000000;
+
+  /* выделенные тексты */
+  --text-color-special: #403e3b;
+
+  /* темные фоны */
+  --bg-color-dark: #403e3b;
+  --text-color-dark: #ece7e4;
+  --text-color-dark-title: #ffffff;
+
+  /* светлые темы */
+  --bg-color-light: #f7f7f7;
+
+  /* среднего цвета фоны */
+  --bg-color-secondary: #cec4bc;
+}
+
+[data-theme='dark'] {
+  --bg-color: #1b1a1a;
+  --text-color: #ece7e4;
+  --logo-color: #ece7e4;
+
+  /* оверлей на фото */
+  --overlay-dark: rgba(0, 0, 0, 0.5);
+
+  /* кнопка */
+  --bg-color-button: #dddbd9;
+  --text-color-button: #1b1a1a;
+  --bg-color-button-hover: #ffffff;
+  --bg-color-button-hover-link: #4a4545;
+
+  /* лого текстом и декоративнй шрифт */
+  --text-color-dec: #cec4bc;
+
+  /* фон cover */
+  --bg-color-cover: #2a2724;
+
+  /* h1 */
+  --text-color-main-title: #ffffff;
+
+  /* выделенные тексты */
+  --text-color-special: #cec4bc;
+
+  /* темные фоны */
+  --bg-color-dark: #161515;
+  --text-color-dark: #ece7e4;
+  --text-color-dark-title: #ffffff;
+
+  /* светлые темы */
+  --bg-color-light: #272525;
+
+  /* среднего цвета фоны */
+  --bg-color-secondary: #2f2c29;
+}

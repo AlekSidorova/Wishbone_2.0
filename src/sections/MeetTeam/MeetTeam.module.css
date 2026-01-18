@@ -7,22 +7,22 @@
 }
 
 .header {
-  color: #403e3b;
+  color: var(--text-color-special);
 }
 
 .text {
   padding: 14px 0 31px;
-  color: #645c55;
+  color: var(--text-color-dec);
 }
 
 .button {
   background-color: transparent;
-  color: #1b1a1a;
+  color: var(--text-color);
   width: 130px;
 }
 
 .button:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--bg-color-button-hover-link);
 }
 
 .people {

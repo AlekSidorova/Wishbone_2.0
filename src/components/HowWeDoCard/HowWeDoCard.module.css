@@ -5,19 +5,20 @@
 }
 
 .image {
+  color: var(--text-color-special);
   width: 117px;
   height: 102px;
 }
 
 .name {
   padding-top: 15px;
-  color: #403e3b;
+  color: var(--text-color-special);
   font-size: 18px;
   line-height: 144%;
 }
 
 .text {
   padding: 10px 47px;
-  color: #645c55;
+  color: var(--text-color-dec);
   text-align: center;
 }
