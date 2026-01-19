@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './MeetTeam.module.css';
-import { team } from './data';
+import { team } from '../../data/team';
 import PersonCard from '../../components/PersonCard/PersonCard';
 import Button from '../../components/Button/Button';
 //эффект скролла

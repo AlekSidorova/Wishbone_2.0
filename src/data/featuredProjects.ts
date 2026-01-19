@@ -1,6 +1,6 @@
-import project1 from '../../assets/images/Featured_1.png';
-import project2 from '../../assets/images/Featured_2.png';
-import project3 from '../../assets/images/Featured_3.png';
+import project1 from '../assets/images/Featured_1.png';
+import project2 from '../assets/images/Featured_2.png';
+import project3 from '../assets/images/Featured_3.png';
 
 export const featuredProjects = [
   {
