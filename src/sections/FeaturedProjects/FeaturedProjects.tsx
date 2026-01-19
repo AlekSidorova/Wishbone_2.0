@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './FeaturedProjects.module.css';
-import { featuredProjects } from './data';
+import { featuredProjects } from '../../data/featuredProjects';
 import FeaturedProjectItem from '../../components/FeaturedProjectItem/FeaturedProjectItem';
 import Button from '../../components/Button/Button';
 //эффект скролла
