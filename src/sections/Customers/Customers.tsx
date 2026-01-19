@@ -12,10 +12,12 @@ const logos = [
   { src: studioLogo, alt: 'logo Studio Cai' },
   { src: chillLogo, alt: 'logo Chill Industries' },
 ];
+//эффект скролла
+import type { IWithClassName } from '../../types';
 
-const Customers: React.FC = () => {
+const Customers: React.FC<IWithClassName> = ({ className = ''}) => {
   return (
-    <section className={styles.customers}>
+    <section className={`${styles.customers} ${className}`}>
       <div className={styles.text}>
         <p className="heading">prior clients</p>
         <h2 className={`section_title_mini ${styles.header}`}>

@@ -56,3 +56,15 @@ a {
   font-weight: 400;
   font-display: swap;
 }
+
+/* эффект плавного скролла */
+.fade-section {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

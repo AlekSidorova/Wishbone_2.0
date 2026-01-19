@@ -3,10 +3,12 @@ import styles from './MeetTeam.module.css';
 import { team } from './data';
 import PersonCard from '../../components/PersonCard/PersonCard';
 import Button from '../../components/Button/Button';
+//эффект скролла
+import type { IWithClassName } from '../../types';
 
-const MeetTeam: React.FC = () => {
+const MeetTeam: React.FC<IWithClassName> = ({ className = ''}) => {
   return (
-    <section className={styles.meetTeam} id="meet_team">
+    <section className={`${styles.meetTeam} ${className}`} id="meet_team">
       {/* текстовый блок */}
       <div>
         <h2 className={`section_title_mini ${styles.header}`}>Meet our team</h2>
