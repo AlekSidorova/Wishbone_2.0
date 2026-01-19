@@ -6,11 +6,12 @@ const PhotoSection: React.FC <IPhotoSectionProps> =({
   title, 
   text, 
   backgroundImage, 
-  align = 'right'
+  align = 'right',
+  className = ''
 }) => {
   return (
     <article 
-      className={styles.photoSection}
+      className={`${styles.photoSection} ${className}`}
       style={{ backgroundImage: `url(${backgroundImage})`}}
     >
       <div

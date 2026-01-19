@@ -7,6 +7,8 @@ import {
   FinalizingIcon,
   BuildingIcon,
 } from '../../assets/decorations';
+//эффект скролла
+import type { IWithClassName } from '../../types';
 
 const cards = [
   {
@@ -26,9 +28,9 @@ const cards = [
   },
 ];
 
-const HowWeDo: React.FC = () => {
+const HowWeDo: React.FC<IWithClassName> = ({ className = ''}) => {
   return (
-    <section className={styles.howWeDo}>
+    <section className={`${styles.howWeDo} ${className}`}>
       <p className={`heading ${styles.heading}`}>Our process</p>
       <h2 className={`section_title_maxi ${styles.title}`}>
         How we do what we do.

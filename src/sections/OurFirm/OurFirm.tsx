@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './OurFirm.module.css';
 import PersonCard from '../../components/PersonCard/PersonCard';
 import stephenCollier from '../../assets/images/stephen_collier.png';
+//эффект скролла
+import type { IWithClassName } from '../../types';
 
-const OurFirm: React.FC = () => {
+const OurFirm: React.FC<IWithClassName> = ({ className = '' }) => {
   return (
-    <section className={styles.ourFirm} id="our_firm">
+    <section className={`${styles.ourFirm} ${className}`} id="our_firm">
       <h2 className={`section_title_mini ${styles.title}`}>Our firm</h2>
 
       <div className={`main_text_maxi ${styles.text}`}>

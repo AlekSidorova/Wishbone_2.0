@@ -1,17 +1,18 @@
+//интрейфес для работы со скроллом 
+export interface IWithClassName {
+  className?: string;
+}
+
 //интрейфес для лого
 export interface ILogoProps {
   className?: string;
 }
 
 //типы для иконок
-export type TIconProps = {
-  className?: string;
-};
+export type TIconProps = IWithClassName;
 
 //тимы для декоративных иконок
-export type TDecProps = {
-  className?: string;
-};
+export type TDecProps = IWithClassName;
 
 //интерфейс для шапки
 export interface INavLink {
@@ -36,7 +37,7 @@ export interface IPersonCardProps {
 }
 
 //интерфейс для секции с фото (декоративная)
-export interface IPhotoSectionProps {
+export interface IPhotoSectionProps extends IWithClassName {
   title: string;
   text: string;
   backgroundImage: string;
@@ -58,3 +59,4 @@ export interface IFeaturedProjectItemProps {
   country?: string;
   title?: string;
 }
+

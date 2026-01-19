@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './Cover.module.css';
 import Button from '../../components/Button/Button';
 import coverImage from '../../assets/images/cover.png';
+//эффект скролла
+import type { IWithClassName } from '../../types';
 
-const Cover: React.FC = () => {
+const Cover: React.FC<IWithClassName> = ({ className = '' }) => {
   return (
-    <section className={styles.cover} id="cover">
+    <section className={`${styles.cover} ${className}`} id="cover">
       {/* текстовый блок */}
       <div className={styles.about}>
         <p className={`heading ${styles.logo}`}>Wishbone+Partners</p>

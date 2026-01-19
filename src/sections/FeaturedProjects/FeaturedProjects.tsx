@@ -3,10 +3,12 @@ import styles from './FeaturedProjects.module.css';
 import { featuredProjects } from './data';
 import FeaturedProjectItem from '../../components/FeaturedProjectItem/FeaturedProjectItem';
 import Button from '../../components/Button/Button';
+//эффект скролла
+import type { IWithClassName } from '../../types';
 
-const FeaturedProjects: React.FC = () => {
+const FeaturedProjects: React.FC<IWithClassName> = ({ className = ''}) => {
   return (
-    <section className={styles.featuredProjects}>
+    <section className={`${styles.featuredProjects} ${className}`}>
       <h2 className={`section_title_maxi ${styles.title}`}>
         Featured projects
       </h2>
