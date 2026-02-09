@@ -1,6 +1,6 @@
 # Wishbone+Partners Landing Page
 
-[Live Demo](https://your-vercel-url.vercel.app) 🌐
+[Live Demo](https://wishbone-2-0.vercel.app) 🌐
 
 ---
 ![Project Screenshot](./screenshot/main.png)
